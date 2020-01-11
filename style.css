@@ -28,7 +28,7 @@
   left: 0;
   right: 0;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   visibility: hidden;
   z-index: 10;
   background-color: #13145f;
@@ -48,6 +48,34 @@
 
 .show-set .setting {
   visibility: visible;
+}
+
+.recording {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: none;
+  z-index: 10;
+  background-color: #13145f;
+}
+
+.recording ul {
+  list-style-type: none;
+}
+
+.recording-content {
+  color: white;
+}
+
+.recording-confirm {
+  padding: 2rem 0.5rem;
+  color: white;
+}
+
+.show-rec .recording {
+  display: block;
 }
 
 .float-left {
@@ -85,6 +113,7 @@
   border: 1px solid black;
   margin: 0.1rem;
   padding: 0.2rem;
+  word-break: break-all;
 }
 
 .run {
