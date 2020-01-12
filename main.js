@@ -2,7 +2,7 @@
  * @Author: saber2pr
  * @Date: 2020-01-11 19:16:52
  * @Last Modified by: saber2pr
- * @Last Modified time: 2020-01-11 23:40:58
+ * @Last Modified time: 2020-01-12 20:23:07
  */
 const actress = [
   "小鸟游-怜",
@@ -153,7 +153,7 @@ const PoolHelper = {
     Array(n)
       .fill(0)
       .map(_ => {
-        const val = Number(Math.random()).toFixed(1)
+        const val = Number(Math.random()).toFixed(2)
         const pool = PoolHelper.findPool(list, val)
         const target = PoolHelper.randSelect(pool.items)
         target.level = pool.level
