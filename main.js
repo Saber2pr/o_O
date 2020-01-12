@@ -2,7 +2,7 @@
  * @Author: saber2pr
  * @Date: 2020-01-11 19:16:52
  * @Last Modified by: saber2pr
- * @Last Modified time: 2020-01-12 20:23:07
+ * @Last Modified time: 2020-01-12 20:24:37
  */
 const actress = [
   "小鸟游-怜",
@@ -46,7 +46,7 @@ const items = actress.map(name => ({ name }))
 const POOL = [
   {
     level: 4,
-    value: 0.01,
+    value: 0.03,
     items
   },
   {
